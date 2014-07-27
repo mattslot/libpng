@@ -25,7 +25,7 @@
 		14461C8309C3C37F005840C0 /* pngwtran.c in Sources */ = {isa = PBXBuildFile; fileRef = 14461C6F09C3C37F005840C0 /* pngwtran.c */; };
 		14461C8409C3C37F005840C0 /* pngwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 14461C7009C3C37F005840C0 /* pngwutil.c */; };
 		8D07F2C00486CC7A007CD1D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
-		A55DFB5615EBB10D007CCF00 /* pnglibconf.h in Headers */ = {isa = PBXBuildFile; fileRef = A55DFB5515EBB10D007CCF00 /* pnglibconf.h */; };
+		A55DFB5615EBB10D007CCF00 /* pnglibconf.h in Headers */ = {isa = PBXBuildFile; fileRef = A55DFB5515EBB10D007CCF00 /* pnglibconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A55DFBA315EBB557007CCF00 /* png.c in Sources */ = {isa = PBXBuildFile; fileRef = 14461C5D09C3C37F005840C0 /* png.c */; };
 		A55DFBA415EBB557007CCF00 /* pngerror.c in Sources */ = {isa = PBXBuildFile; fileRef = 14461C6009C3C37F005840C0 /* pngerror.c */; };
 		A55DFBA515EBB557007CCF00 /* pngget.c in Sources */ = {isa = PBXBuildFile; fileRef = 14461C6209C3C37F005840C0 /* pngget.c */; };
@@ -225,9 +225,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A55DFB5615EBB10D007CCF00 /* pnglibconf.h in Headers */,
 				14461C7209C3C37F005840C0 /* png.h in Headers */,
 				14461C7309C3C37F005840C0 /* pngconf.h in Headers */,
-				A55DFB5615EBB10D007CCF00 /* pnglibconf.h in Headers */,
 				A5A58CDB17CF754800B64330 /* pnginfo.h in Headers */,
 				A5A58CDC17CF754800B64330 /* pngpriv.h in Headers */,
 				A5A58CDD17CF754800B64330 /* pngstruct.h in Headers */,
